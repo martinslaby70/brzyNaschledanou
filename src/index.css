@@ -11,6 +11,27 @@ code {
     monospace;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #994e87;
+  border-radius: 2px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #642e58; 
+}
+
 .landingPageBG {
   background: linear-gradient(125deg, #34b489aa,#bb91c0, rgb(174, 112, 168));
 	background-size: 300% 300%;
