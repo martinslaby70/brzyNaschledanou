@@ -14,7 +14,7 @@ const LadingPage = () => {
         </div>
         <div className="circle">
           <div>+</div>
-          <span>Osobní přístup, empatie, porozumění</span>
+          <span>Osobní přístup</span>
         </div>
       </div>
       <div className="section-left overflow-hidden d-flex align-items-end flex-column">
