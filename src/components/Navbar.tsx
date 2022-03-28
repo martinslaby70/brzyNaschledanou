@@ -32,10 +32,9 @@ const Navigation = () => {
     <Navbar
       color="faded"
       expand="md"
-      className="position-fixed section-left"
+      className="position-fixed w-100"
       id="navbar"
     >
-      <div className="blur" />
       <NavbarToggler onClick={toggle} className="mr-2" />
       <Collapse
         isOpen={open}

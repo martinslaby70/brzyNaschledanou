@@ -95,6 +95,7 @@ height: auto;
 
 .navbar {
   z-index: 10 !important;
+  background-color: #994e88cb;
 }
 
 .nav-link {
