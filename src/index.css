@@ -93,6 +93,10 @@ height: auto;
   max-height: 2250px;
 }
 
+.nav-item {
+  margin-top: 0!important;
+}
+
 .navbar {
   z-index: 10 !important;
   background-color: #994e88cb;
@@ -100,7 +104,7 @@ height: auto;
 
 .nav-link {
   color: white !important;
-  padding: 0px 10px 0px 10px;
+  padding: 10px 20px 10px 20px !important;
   z-index: 10;
 }
 .blur {
@@ -168,9 +172,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
 }
 
 .skewed1 {
-  width: 300px;
+  width: 14vw;
   height: 70vh;
-  margin-right: -90px;
+  margin-right: -5vw;
   border-radius: 30px;
   transform: skewX(-10deg);
   background: #b37eaf;
@@ -178,9 +182,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
 }
 
 .circle {
-  height: 240px;
-  width: 230px;
-  margin: 20px;
+  height: 10vw;
+  width: 10vw;
+  margin: 5%;
   border-radius: 20%;
   background-color: #b37eafb9;
   display: flex;
@@ -194,6 +198,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
   font-weight: bold;
   text-align: center;
   width: 100%;
+  font-size: .8vw;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .circle>div {
@@ -201,12 +208,12 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
   font-weight: bold;
   text-align: center;
   width: 100%;
-  line-height: 100px;
-  font-size: 100px;
+  font-size: 4vw;
+  list-style: 4vw;
 }
 
 .inner {
-  z-index: 100;
+  z-index: 8;
   position: absolute;
   top: 0;
   left: 0;
@@ -220,10 +227,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
 }
 
 .skewed2 {
-  width: 180px;
+  width: 10vw;
   height: 35vh;
   border-radius: 30px;
-  margin-right: -60px;
+  margin-right: -5vw;
   margin-top: -5vh;
   transform: skewX(10deg);
   background: #994e87;
