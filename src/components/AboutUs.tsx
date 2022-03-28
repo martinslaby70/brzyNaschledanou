@@ -1,6 +1,6 @@
 const AboutUs = () => {
   return (
-    <div className="d-flex justify-content-end" id="aboutUs">
+    <div className="d-flex justify-content-end" id="services">
       <div className="menu">
         <div className="menuItem">
           <h3>Služby</h3>
@@ -37,19 +37,6 @@ const AboutUs = () => {
                 <a href="#contacts"> Neváhejte se na nás obrátit.</a>
               </span>
             </h5>
-            <div className="mt-3">
-              <h4 className="mt-5">Proč právě my ?</h4>
-              <ul className="mt-4">
-                <li>Pomůžeme vám naplnit představy vlastního odchodu </li>
-                <li>
-                  Zbavíme vás strachu ze zařizování všech okolností kolem
-                  pohřbu 
-                </li>
-                <li>
-                  O tématu sa dokážeme bavit s otevřeně ale zároveň s citem
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

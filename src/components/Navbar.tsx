@@ -18,8 +18,9 @@ const RenderSection = ({ text, href }: LinkProps) => {
   );
 };
 const LINKS: LinkProps[] = [
-  { text: "Služby", href: "#aboutUs" },
+  { text: "Služby", href: "#services" },
   { text: "Gelarie", href: "#gallery" },
+  { text: "O nás", href: "#aboutUs" },
   { text: "Kontakty", href: "#contacts" },
 ];
 

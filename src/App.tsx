@@ -3,6 +3,7 @@ import Contacts from "./components/Contacts";
 import Gallery from "./components/Gallery";
 import LadingPage from "./components/LandingPage";
 import Navigation from "./components/Navbar";
+import Agency from "./components/Agency";
 
 const App = () => {
   const x = 1;
@@ -21,6 +22,7 @@ const App = () => {
         <LadingPage />
         <AboutUs />
         <Gallery />
+        <Agency />
         <Contacts />
       </div>
     </>

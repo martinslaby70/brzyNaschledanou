@@ -59,9 +59,27 @@ const Contacts = () => {
 
           <div className={classes}>
             <div className="d-flex flex-column align-items-center mt-5">
+              <div className="d-flex w-100 mt-3 mb-5">
+                <div className="w-50 d-flex justify-content-center">
+                  <img src={AvatarFemale} alt="avatar" className="avatar" />
+                </div>
+                <div className="w-50">
+                  <h5 className="my-3">Adéla</h5>
+                  <ul className="none mt-5">
+                    <li>Organizátor, komunikace s klienty</li>
+                    <li>
+                      Tel.: <span className="color">+420 XXX XXX XXX</span>
+                    </li>
+                    <li>
+                      E-mail:{" "}
+                      <span className="color">adéla@brzynashledanou.cz</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <div className="d-flex align-items-center w-100">
                 <div className="line" />
-                <div className="mx-3 name">Assistenční služby</div>
+                <div className="mx-3 name">Organizace</div>
                 <div className="line" />
               </div>
               <div className="d-flex w-100 mt-5">
@@ -87,27 +105,9 @@ const Contacts = () => {
                   <img src={AvatarFemale} alt="avatar" className="avatar" />
                 </div>
                 <div className="w-50">
-                  <h5 className="my-3">Majda</h5>
-                  <ul className="none mt-5">
-                    <li>Výpomoc na akcích</li>
-                    <li>
-                      Tel.: <span className="color">+420 XXX XXX XXX</span>
-                    </li>
-                    <li>
-                      E-mail:{" "}
-                      <span className="color">majda@brzynashledanou.cz</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="d-flex w-100 mt-5">
-                <div className="w-50 d-flex justify-content-center">
-                  <img src={AvatarFemale} alt="avatar" className="avatar" />
-                </div>
-                <div className="w-50">
                   <h5 className="my-3">Pája</h5>
                   <ul className="none mt-5">
-                    <li>Zahraniční klienti</li>
+                    <li>Zahraniční klienti, </li>
                     <li>
                       Tel.: <span className="color">+420 XXX XXX XXX</span>
                     </li>
@@ -150,7 +150,7 @@ const Contacts = () => {
                 <div className="w-50">
                   <h5 className="my-3">Verča</h5>
                   <ul className="none mt-5">
-                    <li>Reprezentativní zástupce</li>
+                    <li>Reklamy, besedy, propagace</li>
                     <li>
                       Tel.: <span className="color">+420 XXX XXX XXX</span>
                     </li>
