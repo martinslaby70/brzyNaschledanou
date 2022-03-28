@@ -44,7 +44,7 @@ const Contacts = () => {
                   </li>
                   <li>
                     E-mail:{" "}
-                    <span className="color">vasek@brzynaschledanou.cz</span>
+                    <span className="color">vasek@brzynashledanou.cz</span>
                   </li>
                 </ul>
               </div>
@@ -77,7 +77,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">anežka@brzynaschledanou.cz</span>
+                      <span className="color">anežka@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
@@ -95,7 +95,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">majda@brzynaschledanou.cz</span>
+                      <span className="color">majda@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
@@ -113,7 +113,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">pajic@brzynaschledanou.cz</span>
+                      <span className="color">pajic@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
@@ -138,9 +138,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">
-                        kateřina@brzynaschledanou.cz
-                      </span>
+                      <span className="color">kateřina@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
@@ -158,9 +156,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">
-                        veronika@brzynaschledanou.cz
-                      </span>
+                      <span className="color">veronika@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
@@ -184,7 +180,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">filip@brzynaschledanou.cz</span>
+                      <span className="color">filip@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
@@ -201,7 +197,7 @@ const Contacts = () => {
                     </li>
                     <li>
                       E-mail:{" "}
-                      <span className="color">majda@brzynaschledanou.cz</span>
+                      <span className="color">majda@brzynashledanou.cz</span>
                     </li>
                   </ul>
                 </div>
