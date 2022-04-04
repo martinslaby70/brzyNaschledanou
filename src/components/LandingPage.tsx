@@ -25,8 +25,10 @@ const LadingPage = () => {
       <div className="section-right">
         <div className="landingPageFilter1">
           <img src={image} alt="logo" className="logo"/>
+          <h1 className="heading">BRZY NA SHLEDANOU</h1>
         </div>
         <div className="landingPageFilter1body">
+          <h2 className="heading2">Alternativní pohřební agentura</h2>
         </div>
       </div>
     </div>

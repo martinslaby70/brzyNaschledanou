@@ -47,9 +47,9 @@ code {
     font-size: 50px;
     letter-spacing: 10px;
     color: white;
-    text-align: right;
+    text-align: center;
     width: 100%;
-    padding: 60px;
+    padding-top: 20px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
  }
 
@@ -57,7 +57,7 @@ code {
   font-size: 40px;
   letter-spacing: 10px;
   color: white;
-  text-align: right;
+  text-align: center;
   width: 100%;
   padding: 60px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
@@ -154,11 +154,12 @@ h4 {
 .landingPageFilter1 {
   height: 65vh;
   background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #994e87 100%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%, #994e87 100%);
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
+  justify-content: center;
   flex-direction: column ;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .landingPageFilter1body {
@@ -172,7 +173,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
 }
 
 .logo {
-  width: 40vw;
+  width: 10vw;
 }
 
 .skewed1 {
