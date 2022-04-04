@@ -46,7 +46,7 @@ code {
  .heading {
     font-size: 50px;
     letter-spacing: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     width: 100%;
     padding-top: 20px;
@@ -56,7 +56,7 @@ code {
  .heading2 {
   font-size: 40px;
   letter-spacing: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   width: 100%;
   padding: 60px;
@@ -152,28 +152,37 @@ h4 {
 }
 
 .landingPageFilter1 {
-  height: 65vh;
+  height: 100vh;
   background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%, #994e87 100%);
+  background: linear-gradient(-90deg, rgba(48, 210, 156, 0.165) 0%, rgba(146, 156, 184, 0.534) 100%);
   display: flex;
   width: 100%;
   justify-content: center;
   flex-direction: column ;
-  align-items: center;
 }
 
 .landingPageFilter1body {
   height: 35vh;
-  background: rgb(0,0,0);
-  background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #994e87 100%);
+  background: linear-gradient(-90deg, rgba(48, 210, 156, 0.165) 0%, rgba(146, 156, 184, 0.534) 100%);
   display: flex;
   justify-content: start;
   flex-direction: column ;
   align-items: flex-start;
 }
 
+.logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
+}
+
 .logo {
-  width: 10vw;
+  width: 40vw;
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .skewed1 {
@@ -183,7 +192,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%,
   border-radius: 0 0 0 30px;
 
   transform: skewX(-10deg);
-  background: #b37eaf;
+  background: 
+  #c5cad9;
   z-index: 7;
 }
 
@@ -192,7 +202,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%,
   width: 10vw;
   margin: 5%;
   border-radius: 20%;
-  background-color: #b37eafb9;
+  background-color: #ffffff46;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,7 +210,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%,
 }
 
 .circle>span {
-  color: #fad4f1;
+  color: #994e8890;
   font-weight: bold;
   text-align: center;
   width: 100%;
@@ -210,7 +220,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%,
 }
 
 .circle>div {
-  color: #fad4f1;
+  color: #994e888a;
   font-weight: bold;
   text-align: center;
   width: 100%;
@@ -223,9 +233,11 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%,
   position: absolute;
   top: 0;
   left: 0;
-  width: 35vw;
+  width: 40vw;
   height: 100vh;
   display: flex;
+  background-color: 
+  #c5cad9;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -239,7 +251,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #994e885b 100%,
   margin-right: -5vw;
   margin-top: -5vh;
   transform: skewX(10deg);
-  background: #994e87;
+  background:
+  #c5cad9;
   z-index: 7;
 }
 
