@@ -171,6 +171,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #b37eaf 0%, #9a4f88 100%, #
   align-items: flex-start;
 }
 
+.logo {
+  width: 40vw;
+}
+
 .skewed1 {
   width: 14vw;
   height: 70vh;

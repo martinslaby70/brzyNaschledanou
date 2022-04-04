@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../assets/bg.png"
 
 const LadingPage = () => {
   return (
@@ -23,10 +24,9 @@ const LadingPage = () => {
       </div>
       <div className="section-right">
         <div className="landingPageFilter1">
-          <h1 className="heading">BRZY NASHLEDANOU</h1>
+          <img src={image} alt="logo" className="logo"/>
         </div>
         <div className="landingPageFilter1body">
-          <h2 className="heading2">Alternativní pohřební agentura</h2>
         </div>
       </div>
     </div>
